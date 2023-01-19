@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luciano Córdoba">
+    <meta name="description" content="Portafolio FrontEnd">
+    <meta name="keywords" content="HTML, CSS, Javascript, React">
+    <link rel="icon" type="image/jpg" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" 
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto con bootstrap</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" width="50" alt="Logo página web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="images/yoo.webp" alt="yo">
+            <h1>Hola, soy Luciano Córdoba</h1>
+            <h2>Desarrollador FrontEnd y en camino a FullStack.</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="images/desarrollador.webp" alt="Desarrollador desarrollando">
+        </div>
+    </section>
+    <!--Sobre mi-->
+    <section id="sobreMi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo texto-blanco">Conoce a Luciano Códoba</h2>
+            <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas alias deserunt ipsa eius delectus soluta tenetur omnis aut explicabo! Laudantium aliquid ipsum corporis a nulla fugit error nam totam?</p>
+        </div>
+    </section>
+    <!--Experiencia-->
+    <section id="experiencia" class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo web -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto commodi ipsa, ut inventore quia quibusdam sapiente labore velit impedit provident sit voluptatibus aliquid exercitationem dolorem iure? Eos corrupti soluta cum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">Javascript</span>
+                        <span class="badge text-bg-primary">React</span>
+                    </div>
+                </div>
+                <!--articulos-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Articulos</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto commodi ipsa, ut inventore quia quibusdam sapiente labore velit impedit provident sit voluptatibus aliquid exercitationemdolorem iure? Eos corrupti soluta cum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Escribir</span>
+                        <span class="badge text-bg-primary">Editar</span>
+                        <span class="badge text-bg-primary">Blogs</span>
+                    </div>
+                </div>
+                <!--estudiante-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto 
+                    commodi ipsa, ut inventore quia quibusdam sapiente labore velit 
+                    impedit provident sit voluptatibus aliquid exercitationem dolorem 
+                    iure? Eos corrupti soluta cum.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Coderhouse</span>
+                        <span class="badge text-bg-primary">Desarrollo Web</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">MaxiPrograma</span>
+                        <span class="badge text-bg-primary">C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Proyectos-->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column"> 
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+        <!--galeria proyectos-->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!--proyecto 1-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoSurveyPage.png" alt="Proyecto Pagina Survey">
+                        <div class="overlay">
+                            <p>Página Survey</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--proyecto 2-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoReplicaGoogle.png" alt="Proyecto Replica Google">
+                        <div class="overlay">
+                            <p>Réplica Google</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--proyecto 3-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoReplicaFacebook.png" alt="Proyecto Replica Facebook">
+                        <div class="overlay">
+                            <p>Réplica Facebook</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--proyecto 4-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoGaleriaFotos.png" alt="Proyecto Galeria Fotos">
+                        <div class="overlay">
+                            <p>Galería Fotos</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--proyecto 5-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoTodoNotebooks.png" alt="Proyecto Ecommerce">
+                        <div class="overlay">
+                            <p>Ecommerce TodoNotebooks</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--proyecto 6-->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/proyectoFightingGame.png" alt="Proyecto Juego de Lucha">
+                        <div class="overlay">
+                            <p>Fighting Game</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LucianoYass" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="bontonn" href="https://github.com/" targe="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para  iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:lucianocordoba2001@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="images/logaso.png"alt="logo portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias.<br></p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="mailto:lucianocordoba2001@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Luciano Córdoba (2023) &#169;</div>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
