@@ -67,6 +67,7 @@ h1 {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
+    margin-bottom: 6.5rem;
 }
 
 .hero-principal {
@@ -145,6 +146,7 @@ h1 {
 
 .proyectos-recientes {
     padding: 40px;
+    margin-bottom: 6.5rem;
 }
 
 .proyectos-recientes img {
